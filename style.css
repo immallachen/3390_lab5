@@ -1,0 +1,46 @@
+/* line styles */
+.axis path,
+.axis line { 
+	fill: none;
+	stroke: #333;
+	shape-rendering: crispEdges;
+}
+
+/* labels */
+.axis text {
+    font-family: 'Quicksand', sans-serif;
+	font-size: 11px;
+}
+
+.container {
+    margin: 20px;
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+}
+
+select {
+    font-family: 'Quicksand', sans-serif;
+    border: solid 1px rgb(80, 83, 255);
+    padding: 8px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 8px;
+}
+
+button {
+    font-family: 'Quicksand', sans-serif;
+    background-color: rgb(80, 83, 255);
+    border: none;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 8px;
+    margin: 10px;
+}
+
+header {
+    font-size: 40px;
+    padding: 10px;
+}
